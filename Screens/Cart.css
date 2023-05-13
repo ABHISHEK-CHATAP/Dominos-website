@@ -1,0 +1,454 @@
+.heading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.BODY {
+    background-color: #E0E0E0;
+}
+
+
+@media (min-width: 779px) and (max-width: 1300px) {
+
+
+    .top-row {
+        border-right: 10px solid #E0E0E0;
+        overflow: hidden;
+        overflow-y: scroll;
+        height: 50vh;
+    
+    }
+    
+    .Top-second-column {
+        border-left: 5px solid #E0E0E0;
+        height: 39vh;
+        background-color: #ffffff;
+    }
+    
+    .main-card {
+        width: 60vw;
+    }
+    
+    .CARDS {
+        margin-left: -1rem;
+        margin-right: 3rem;
+        width: 54.3vw;
+    }
+    
+    .cartleft {
+        flex: 3;
+        background-color: rgb(255, 255, 255);
+        height: 50vh;
+        margin: 15px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+
+
+    .carted {
+        margin-bottom: 7px;
+    }
+
+    .carted-image {
+        height: 17vh;
+        width: 8rem;
+    }
+
+    .carted-name {
+        margin-top: -20px;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    .carted-description {
+        margin-top: -1px;
+        font-size: 12px;
+        width: 18.5rem;
+    }
+
+    .hsix {
+        font-size: 12px;
+        font-weight: bolder;
+    }
+
+    .cart-total {
+        padding: 7px;
+        margin-left: -3.5rem;
+        margin-top: 2rem;
+
+    }
+
+    .button {
+        width: 20px;
+        height: 1.5rem;
+    }
+
+    .qty {
+        margin-left: 0.4rem;
+    }
+
+    .plus {
+        margin-top: 15px;
+    }
+
+    /* right side of cart */
+
+    .cartright {
+        flex: 2;
+        background-color: rgb(255, 255, 255);
+        margin: 15px;
+        padding: 10px;
+        height: 40vh;
+
+    }
+
+    .cart-text {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .icon {
+        display: flex;
+
+    }
+
+    .cartright-top>h5,
+    h6 {
+        font-size: 15px;
+        color: gray;
+        margin-left: 10px;
+    }
+
+    .location-btn {
+        width: 13.5vw;
+        margin-left: 13rem;
+        margin-top: -1rem;
+    }
+
+    .adress-btn {
+        width: 13.5vw;
+        margin-left: 13rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    /* 
+    courosal block card */
+    
+    .cart-left {
+    
+        background-color: #ffffff;
+        height: 25vh;
+        margin-right: -1rem;
+        margin-top: 3rem;
+        margin-left: -12px;
+    }
+    
+    .cart-left>h6 {
+        margin-right: 5rem;
+    }
+    
+    .dessert-cards {
+        width: 19%;
+    }
+    
+    
+    
+    
+    .Second-row-bottom-corner {
+        height: 45vh;
+        background-color: #E0E0E0;
+        margin-top: -5rem;
+    }
+    
+    
+    
+    
+    .cart-right {
+    
+        background-color: rgb(255, 255, 255);
+        margin: 10px;
+    
+        height: 41vh;
+    }
+    
+    .subtotal {
+        padding: 7px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .subtotal>h5 {
+        font-size: 16px;
+        font-weight: 900;
+    }
+    
+    .mx-4 {
+        width: 19rem;
+        margin-top: -5px;
+    }
+    
+    .picture {
+        height: 15vh;
+    }
+    
+    .text-muted {
+        cursor: pointer;
+        color: rgb(74, 221, 74);
+        margin-left: 2rem;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/* Mobile view */
+
+
+
+@media (max-width: 600px) {
+    .top-row {
+        border-right: 7px solid #E0E0E0;
+        border-left: 5px solid #E0E0E0;
+        overflow: hidden;
+        overflow-y: scroll;
+        height: 50vh;
+    
+    }
+    .cartleft {
+        flex: 3;
+        background-color: rgb(255, 255, 255);
+        height: 50vh;
+        margin: 15px;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+
+
+    .carted {
+        margin-bottom: 7px;
+    }
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.5rem 0.5rem;
+}
+    .carted-image {
+        height: 12vh;
+        width: 6rem;
+    }
+    .carted-name {
+        margin-top: -20px;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    .carted-description {
+        margin-top: -1px;
+        font-size: 12px;
+        width: 18.5rem;
+    }
+
+    .hsix {
+        font-size: 12px;
+        font-weight: bolder;
+    }
+
+    .cart-total {
+        padding: 7px;
+        margin-left: 9.5rem;
+        margin-top: -11rem;
+    }
+
+    .incre-decre{
+        display: flex;
+        margin-top: -9rem;
+        margin-left: 10rem;
+    }
+    
+
+    .button {
+        width: 20px;
+        height: 1.5rem;
+    }
+
+    .qty {
+        margin-left: 0.4rem;
+    }
+
+    .plus {
+        margin-top: 0px;
+    }
+
+.minus{
+    margin-left: 5px;
+}
+
+
+
+
+
+
+/* second card */
+
+.cartright {
+    flex: 2;
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
+    padding: 10px;
+    height: 40vh;
+
+}
+
+.cart-text {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-left: 0rem;
+}
+
+.icon {
+    display: flex;
+
+}
+
+.cartright-top>h5,
+h6 {
+    font-size: 15px;
+    color: gray;
+    margin-left: 10px;
+}
+
+.location-btn {
+    width: 48.5vw;
+    margin-left: 9rem;
+    margin-top: 0rem;
+}
+
+.adress-btn {
+    width: 48.5vw;
+    margin-left: 9rem;
+}
+
+
+   
+    
+    /* 
+    courosal block card */
+    
+    .cart-left {
+        background-color: #ffffff;
+        height: 53vh;
+        margin-right: -1rem;
+        margin-top: 2rem;
+        margin-left: -12px;
+    }
+    
+    .cart-left>h6 {
+        margin-right: 5rem;
+    }
+    
+    .dessert-cards {
+        width: 30%;
+    }
+    
+    
+    
+    
+    .Second-row-bottom-corner {
+        height: 45vh;
+        background-color: #E0E0E0;
+        margin-top: -5rem;
+    }
+    
+    
+    
+    
+    .cart-right {
+    
+        background-color: rgb(255, 255, 255);
+        margin: 10px;
+    
+        height: 41vh;
+    }
+    
+    .subtotal {
+        padding: 7px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .subtotal>h5 {
+        font-size: 16px;
+        font-weight: 900;
+    }
+    
+    .mx-4 {
+        width: 17rem;
+        margin-top: 7px;
+    }
+    
+    .picture {
+        height: 15vh;
+    }
+    
+    .text-muted {
+        cursor: pointer;
+        color: rgb(74, 221, 74);
+        margin-left: 2rem;
+    }
+    
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
