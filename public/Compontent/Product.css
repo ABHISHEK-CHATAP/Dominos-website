@@ -1,0 +1,30 @@
+.item-name{
+    font-size: 13px;
+    font-weight: bolder;
+    width: 250px;
+
+
+}
+.image-cart{
+    height: 100vh;
+}
+.btn{
+    width: 165px;
+}
+
+
+@media (max-width:778px){
+
+    .btn {
+        width: 275px;
+    }
+
+
+
+
+
+
+}
+
+
+
